@@ -1,0 +1,8 @@
+# no one gets in here!
+deny from all
+
+# custom error documents
+ErrorDocument 401 index.html
+ErrorDocument 403 index.html
+ErrorDocument 404 index.html
+ErrorDocument 500 index.html
