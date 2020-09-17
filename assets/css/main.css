@@ -160,6 +160,18 @@ textarea {
   appearance: none;
 }
 
+/* Languajes */
+
+.languages {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.languages .lang-active {
+  border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+}
+
 /* Basic */
 
 html {
@@ -274,7 +286,7 @@ i {
   font-style: italic;
 }
 
-a {
+/*a {
   text-decoration: none;
   color: inherit;
   border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
@@ -290,7 +302,7 @@ a {
 a:hover {
   color: #e27689;
   border-bottom-color: rgba(255, 255, 255, 0);
-}
+}*/
 
 sub {
   position: relative;
