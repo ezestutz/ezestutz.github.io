@@ -2385,7 +2385,7 @@ button:active,
 #main > section.one {
   height: 100vh;
   background-color: #81918e;
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../assets/images/banner.jpg");
 }
 
 #main > section.two {
