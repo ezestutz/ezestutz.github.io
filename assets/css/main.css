@@ -384,6 +384,11 @@ br.clear {
   flex-wrap: wrap;
   box-sizing: border-box;
   align-items: stretch;
+  padding-top: 20px;
+}
+
+.row div {
+  padding-top: 5rem;
 }
 
 .row > * {
