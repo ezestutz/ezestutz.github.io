@@ -144,13 +144,15 @@
               <header>
                 <h3>Sitio web de Capitán Sarmiento</h3>
               </header>
-              <p>
-                Soy Analista en Informática, con conocimientos extracurriculares
-                en programación web. Aficionado a la astronomía y la tecnología.
-                Autodidacta, siempre estoy dispuesto a aprender y capacitarme.
-                Considero que tengo la capacidad de adaptarme al area en la que
-                se me necesite. Con experiencia en desarrollo de proyectos de
-                software grupales.
+              <p class="project-description">
+                Este proyecto se dió dentro del marco de una pasantía realizada
+                en la Municipalidad de Capitán Sarmiento. El sitio fue
+                desarrollado en HTML, CSS, con uso de Bootstrap, JavaScript y
+                PHP, con el objetivo de darle al vecino la posibilidad de
+                acceder a diversos servicios e información desde un único lugar.
+                Cave destacar que la ciudad no tenía un sitio web, por lo tanto
+                el trabajo también involucró crear y administrar una instancia
+                EC2 en Amazon. Y crear el servidor Apache en la misma desde 0.
               </p>
               <a
                 href="https://capitansarmiento.gob.ar"
@@ -164,15 +166,73 @@
           <div class="row">
             <div class="col-8 col-12-mobile">
               <header>
-                <h3>Sistema de Reclamos</h3>
+                <h3>Entorno en WordPress</h3>
               </header>
-              <p>
-                Soy Analista en Informática, con conocimientos extracurriculares
-                en programación web. Aficionado a la astronomía y la tecnología.
-                Autodidacta, siempre estoy dispuesto a aprender y capacitarme.
-                Considero que tengo la capacidad de adaptarme al area en la que
-                se me necesite. Con experiencia en desarrollo de proyectos de
-                software grupales.
+              <p class="project-description">
+                Todas las subpaginas bajo la carpeta "/info/", dentro del
+                proyecto anterior, contienen "iframes" con paginas desarrolladas
+                en WordPress, dado que se requería que una persona sin
+                conocimientos de programación las edite. Esto significa que el
+                trabajo involucró, además de crear el entrono de WordPress y
+                administrar usuarios en él, una capacitación de WordPress con el
+                plugin Elementor para quienes debían editar la información de
+                las páginas.
+              </p>
+              <a
+                href="https://capitansarmiento.gob.ar/info/ciudad.php"
+                target="_blank"
+                class="button scrolly"
+                ><span class="icon solid fa-th"></span> Ver</a
+              >
+            </div>
+            <div class="col-4 col-12-mobile">
+              <article class="item">
+                <a class="image fit"
+                  ><img
+                    src="assets/images/cap-sto-wordpress.png"
+                    alt="Entorno en WordPress"
+                  />
+                </a>
+              </article>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-4 col-12-mobile">
+              <article class="item">
+                <a class="image fit"
+                  ><img
+                    src="assets/images/cap-sto-reclamos.png"
+                    alt="Sitio web de Capitán Sarmiento"
+                  />
+                </a>
+              </article>
+            </div>
+            <div class="col-8 col-12-mobile">
+              <header>
+                <h3>"Sugerencias y Reclamos"</h3>
+              </header>
+              <p class="project-description">
+                También uno de los proyectos de la pasantía. Consiste en un
+                sistema basado en osTicket, con profundas modificaciones
+                estructurales y estéticas, en PHP (con consultas en SQL), HTML,
+                CSS y JavaScript, para adaptarse al diseño del sitio web y las
+                necesidades especificas del municipio. Con el objetivo de
+                establecer una conexión más estrecha con los vecinos y de
+                adaptarnos a la situación de cuarentena y aislamiento,
+                propusimos este proyecto.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-12-mobile">
+              <p class="project-description">
+                El sistema consta de un entrono para el vecino, en el que puede
+                abrir reclamos o sugerencias y ver el estado de los que ya
+                abrió; y un entorno para los responsables de contestar los
+                reclamos y sugerencias. Una vez se abre un reclamo o sugerencia,
+                le llegará un mail al responsable de responder, con un link para
+                iniciar en el sistema y contestarlo.
               </p>
               <a
                 href="https://capitansarmiento.gob.ar/servicios/reclamosYSugerencias/"
@@ -185,7 +245,78 @@
               <article class="item">
                 <a class="image fit"
                   ><img
-                    src="assets/images/cap-sto.jpg"
+                    src="assets/images/cap-sto-reclamos-2.png"
+                    alt="Sitio web de Capitán Sarmiento"
+                  />
+                </a>
+              </article>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-4 col-12-mobile">
+              <article class="item">
+                <a class="image fit"
+                  ><img
+                    src="assets/images/atencion-al-vecino.png"
+                    alt="Sitio web de Capitán Sarmiento"
+                  />
+                </a>
+              </article>
+            </div>
+            <div class="col-8 col-12-mobile">
+              <header>
+                <h3>"Atención al Vecino"</h3>
+              </header>
+              <p class="project-description">
+                Una vez desarrollados las aplicaciones mencionadas
+                anteriormente, desarrollamos una app para dispositivos Android,
+                en Java, con el fin de hacer más práctico y simple el uso de los
+                sistemas desarrollados. Esta app proporciona acceso al sistema
+                "Sugerencias y Reclamos", además de una pantalla que ofrece
+                enviar un mensaje por WhatsApp o realizar una llamada a un
+                número de teléfono, para realizar algun turno en especifico y un
+                acceso a un entorno, para realizar pagos.
+              </p>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.sarmiento.atencionalvecino"
+                target="_blank"
+                class="button scrolly"
+                ><span class="icon solid fa-th"></span> Ver</a
+              >
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-8 col-12-mobile">
+              <header>
+                <h3>"Seguridad Ciudadana"</h3>
+              </header>
+              <p class="project-description">
+                También formé parte del desarrolo de otra aplicación en Java,
+                para Android, capaz de enviar diferentes tipos de alertas de
+                emergencias, tomando la ubicación actual del dispositivo y la
+                información del usuario.<br />
+                Dichas alertas son visualizadas en un centro de monitoreo
+                desarrollado en ReactJS con un backend en NodeJS y MySQL, en
+                donde suena una alarma y se marca en un mapa la ubicación de la
+                emergencia, disparando a continuación un protocolo articulado
+                por los servicios de emergencia municipales. Por cuestiones de
+                seguridad no estoy autorizado a mostrar el entorno o proveer
+                acceso a él.
+              </p>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.sarmiento.atencionalvecino"
+                target="_blank"
+                class="button scrolly"
+                ><span class="icon solid fa-th"></span> Ver</a
+              >
+            </div>
+            <div class="col-4 col-12-mobile">
+              <article class="item">
+                <a class="image fit"
+                  ><img
+                    src="assets/images/seguridad-ciudadana.png"
                     alt="Sitio web de Capitán Sarmiento"
                   />
                 </a>

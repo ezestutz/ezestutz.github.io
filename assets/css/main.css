@@ -2130,6 +2130,12 @@ button:active,
   font-size: 1em;
 }
 
+/* Project */
+
+.project-description {
+  text-align: start;
+}
+
 /* Icons */
 
 .icon {
