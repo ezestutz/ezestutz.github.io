@@ -2133,6 +2133,10 @@ button:active,
 /* Project */
 
 .project-description {
+  margin: auto;
+}
+
+.project-description p {
   text-align: start;
 }
 
