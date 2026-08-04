@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { PrintButton } from "@/components/PrintButton";
 import { profile } from "@/lib/content";
 import "./cv.css";
 
@@ -18,7 +17,14 @@ export default function CvPage() {
           ← Back to site
         </Link>
         <div className="toolbar__actions">
-          <PrintButton />
+          <a
+            className="btn btn--solid"
+            href="/cv/Ezequiel-Stutz-Diaz-CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Save PDF
+          </a>
         </div>
       </div>
 
