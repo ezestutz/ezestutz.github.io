@@ -13,7 +13,8 @@ export function Contact() {
               <h2>Let’s talk</h2>
               <p>
                 Open to conversations about frontend work, product teams, and
-                interesting problems. Reach out by email or find me online.
+                interesting problems. Reach out by WhatsApp, email, or find me
+                online.
               </p>
               <ul className="socials">
                 <li>
@@ -46,7 +47,15 @@ export function Contact() {
               </ul>
             </div>
             <div className="contact-actions">
-              <a className="btn btn--solid" href={`mailto:${profile.email}`}>
+              <a
+                className="btn btn--solid"
+                href={profile.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                WhatsApp
+              </a>
+              <a className="btn btn--outline" href={`mailto:${profile.email}`}>
                 Email me
               </a>
               <Link className="btn btn--outline" href="/cv/">

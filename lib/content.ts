@@ -2,6 +2,7 @@ export const profile = {
   name: "Ezequiel Stutz Díaz",
   role: "Senior Frontend Software Engineer",
   email: "ezequielo.stutzdiaz@gmail.com",
+  whatsapp: "https://wa.me/5492478441298",
   site: "https://ezestutz.github.io/",
   linkedin: "https://www.linkedin.com/in/ezestutz/",
   github: "https://github.com/ezestutz/",
