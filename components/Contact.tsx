@@ -1,5 +1,13 @@
 import Link from "next/link";
 import { profile } from "@/lib/content";
+import {
+  IconFile,
+  IconGitHub,
+  IconInstagram,
+  IconLinkedIn,
+  IconMail,
+  IconWhatsApp,
+} from "./icons";
 import { Reveal } from "./Reveal";
 
 export function Contact() {
@@ -23,6 +31,7 @@ export function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
+                    <IconLinkedIn />
                     LinkedIn
                   </a>
                 </li>
@@ -32,6 +41,7 @@ export function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
+                    <IconGitHub />
                     GitHub
                   </a>
                 </li>
@@ -41,6 +51,7 @@ export function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
+                    <IconInstagram />
                     Instagram
                   </a>
                 </li>
@@ -53,12 +64,15 @@ export function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                <IconWhatsApp />
                 WhatsApp
               </a>
               <a className="btn btn--outline" href={`mailto:${profile.email}`}>
+                <IconMail />
                 Email me
               </a>
               <Link className="btn btn--outline" href="/cv/">
+                <IconFile />
                 Open CV
               </Link>
             </div>

@@ -579,13 +579,24 @@ button,
 }
 
 .socials a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   color: var(--teal-deep);
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s ease, color 0.2s ease;
 }
 
+.socials a svg {
+  flex-shrink: 0;
+}
+
 .socials a:hover {
   border-bottom-color: var(--teal);
+}
+
+.contact-actions .btn svg {
+  flex-shrink: 0;
 }
 
 .contact-actions {
