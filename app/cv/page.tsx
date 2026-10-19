@@ -150,6 +150,23 @@ export default function CvPage() {
               <h2>Selected projects</h2>
               <article className="job">
                 <div className="job__top">
+                  <h3>Empleos Cahuané</h3>
+                  <span className="job__when">Personal</span>
+                </div>
+                <p>
+                  Free local job board and buy/sell marketplace for Capitán
+                  Sarmiento and the area.{" "}
+                  <a
+                    href="https://empleoscahuane.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    empleoscahuane.com
+                  </a>
+                </p>
+              </article>
+              <article className="job">
+                <div className="job__top">
                   <h3>Parts.Cat.Com (PCC)</h3>
                   <span className="job__when">Perficient</span>
                 </div>
