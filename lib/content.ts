@@ -54,6 +54,17 @@ export const experience = [
 
 export const projects = [
   {
+    title: "Empleos Cahuané",
+    image: "/images/empleos-cahuane.png",
+    alt: "Empleos Cahuané job board and marketplace",
+    tags: ["Next.js", "React", "AWS Amplify"],
+    paragraphs: [
+      "A free local job board and buy/sell marketplace for Capitán Sarmiento and the surrounding area — post or find work, gigs, and services without intermediaries.",
+    ],
+    href: "https://empleoscahuane.com",
+    cta: "Open site",
+  },
+  {
     title: "Website of Capitán Sarmiento",
     image: "/images/cap-sto.jpg",
     alt: "Website of Capitán Sarmiento",
